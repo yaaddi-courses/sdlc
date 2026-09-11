@@ -1,6 +1,6 @@
-# 
+# The Software Development Lifecycle (SDLC)
 
-
+The software development lifecycle end to end: requirements, design, building, testing, shipping, and keeping a system alive afterward.
 
 Part of the [Yaaddi](https://github.com/yaaddi-courses) course catalog — a
 spaced-repetition flashcard course, ready to build and validate with the
