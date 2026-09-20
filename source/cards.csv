@@ -7,14 +7,14 @@ id,unit_id,type,role,related_main_id,prompt,options,correct_index,image,audio,ex
 6,2,true_false,preview,7,A defined process helps catch problems earlier.,,true,,,
 7,2,multiple_choice,main,,What does a defined process help catch?,Problems earlier|Nothing new|Only typos,0,cards/card_7.png,,"A defined process also keeps work repeatable, instead of reinventing things each time."
 8,2,true_false,exercise,7,Ad-hoc coding makes work more repeatable.,,false,,,"A defined process is what makes work repeatable, not ad-hoc coding."
-9,2,select_blank,exercise,7,Process makes work more ___.,repeatable|random|hidden,0,,,
-10,2,multiple_choice,exercise,7,What does ad-hoc coding risk?,Reinventing work|Faster delivery|Clearer plans,0,,,
-11,3,multiple_choice,preview,12,Which is a core SDLC phase?,Design|Marketing|Painting,0,cards/card_11.png,,
+9,2,select_blank,exercise,7,Process makes work more ___.,repeatable|random|hidden,0,,,"A process establishes a standardized way of doing things, which inherently makes the work repeatable and consistent. Randomness is what you try to eliminate when building reliable systems."
+10,2,multiple_choice,exercise,7,What does ad-hoc coding risk?,Reinventing work|Faster delivery|Clearer plans,0,,,"Because ad-hoc coding is done without sufficient planning, you risk reinventing the wheel by solving similar problems multiple times across different parts of the codebase. This approach sacrifices efficiency for immediate action."
+11,3,multiple_choice,preview,12,Which is a core SDLC phase?,Design|Marketing|Painting,0,cards/card_11.png,,"The Software Development Life Cycle focuses on building software, making 'Design' a critical phase for planning architecture before coding begins. Marketing or painting are unrelated business functions."
 12,3,multi_select,main,,Pick core SDLC phases.,Requirements|Design|A logo|Build,0|1|3,cards/card_12.png,,"The full list of core phases: requirements, design, build, test, deploy, and maintain."
-13,3,true_false,exercise,12,Maintenance is one of the core SDLC phases.,,true,,,
-14,3,select_blank,exercise,12,Nearly every model shares the same core ___.,phases|logo|font,0,,,
-15,3,multiple_choice,exercise,12,Name a core SDLC phase.,Testing|A font|A logo,0,,,
-16,4,true_false,preview,17,Requirements gathering finds out what users need.,,true,,,
+13,3,true_false,exercise,12,Maintenance is one of the core SDLC phases.,,true,,,"True; maintenance is absolutely a core phase because software rarely works perfectly and requires ongoing updates, fixes, and adaptation after deployment."
+14,3,select_blank,exercise,12,Nearly every model shares the same core ___.,phases|logo|font,0,,,"All software models, regardless of methodology (Agile or Waterfall), must still pass through distinct stages like planning, building, and testing; these are the core phases."
+15,3,multiple_choice,exercise,12,Name a core SDLC phase.,Testing|A font|A logo,0,,,"Testing is a core phase of the SDLC where you validate that the software works correctly; fonts and logos are just design elements, not development stages."
+16,4,true_false,preview,17,Requirements gathering finds out what users need.,,true,,,That's correct; requirements gathering is the initial phase dedicated entirely to understanding and documenting what the end-users actually need from the system.
 17,4,multiple_choice,main,,What does requirements gathering find out?,System needs|Font size|Logo color,0,cards/card_17.png,,"It comes from real users, gathered before building starts."
 18,4,true_false,exercise,17,Requirements should be gathered before building starts.,,true,,,
 19,4,select_blank,exercise,17,Requirements come from the people who ___ it.,use|ignore|delete,0,,,
@@ -22,43 +22,43 @@ id,unit_id,type,role,related_main_id,prompt,options,correct_index,image,audio,ex
 21,5,select_blank,preview,22,Functional requirements describe what a system must ___.,do|cost|look,0,,,
 22,5,multiple_choice,main,,What do functional requirements describe?,Behavior|How fast|Font size,0,cards/card_22.png,,"Non-functional requirements, by contrast, describe how well it performs — like its speed or security."
 23,5,true_false,exercise,22,Speed is a non-functional requirement.,,true,,,
-24,5,select_blank,exercise,22,Non-functional requirements cover how ___ a system performs.,well|much|little,0,,,
-25,5,multiple_choice,exercise,22,Give an example non-functional requirement.,Security|Login button|Save action,0,,,
-26,6,true_false,preview,27,A user story describes a need from users.,,true,,,
+24,5,select_blank,exercise,22,Non-functional requirements cover how ___ a system performs.,well|much|little,0,,,"Non-functional requirements define quality attributes, meaning they describe *how well* the system must perform in terms of speed or reliability."
+25,5,multiple_choice,exercise,22,Give an example non-functional requirement.,Security|Login button|Save action,0,,,"Security is a non-functional requirement because it defines a constraint on how the system must operate (e.g., protected), unlike buttons and actions which define specific functions."
+26,6,true_false,preview,27,A user story describes a need from users.,,true,,,"User stories are written from the perspective of an end-user, describing a specific goal or need they want to achieve with the system."
 27,6,multiple_choice,main,,What does a user story describe?,A need|A font|A logo,0,cards/card_27.png,,Its acceptance criteria say exactly how you'll know that need has been met — the done state.
-28,6,true_false,exercise,27,Acceptance criteria say how you know a story is met.,,true,,,
+28,6,true_false,exercise,27,Acceptance criteria say how you know a story is met.,,true,,,"Exactly; they are the specific, testable conditions that must be true for the development team to consider the feature complete and working correctly."
 29,6,select_blank,exercise,27,A user story is written from the ___ view.,user's|logo's|font's,0,,,
-30,6,multiple_choice,exercise,27,What do acceptance criteria define?,Done state|The font|The logo,0,,,
-31,7,true_false,preview,32,Feasibility analysis checks if a project is worth it.,,true,,,
+30,6,multiple_choice,exercise,27,What do acceptance criteria define?,Done state|The font|The logo,0,,,Acceptance criteria define the 'done' state—they are the measurable conditions that must be met for a feature to pass testing and be considered complete.
+31,7,true_false,preview,32,Feasibility analysis checks if a project is worth it.,,true,,,"That's right; feasibility determines if the project is technically possible, economically viable, and strategically worthwhile to pursue."
 32,7,multiple_choice,main,,What does feasibility analysis check?,Worth doing|The font|The logo,0,cards/card_32.png,,"It happens before real money is spent, so resources aren't wasted."
-33,7,true_false,exercise,32,Feasibility analysis happens before real resources are spent.,,true,,,
-34,7,select_blank,exercise,32,Feasibility analysis happens ___ real spending.,before|after|never before,0,,,
-35,7,multiple_choice,exercise,32,What does feasibility analysis avoid?,Wasted resources|Clear goals|Real users,0,,,
-36,8,true_false,preview,37,High-level design sketches a system's overall shape.,,true,,,
+33,7,true_false,exercise,32,Feasibility analysis happens before real resources are spent.,,true,,,"Correct; the whole point of this analysis is to identify major roadblocks or poor ROI early on, preventing wasted time and money later in development."
+34,7,select_blank,exercise,32,Feasibility analysis happens ___ real spending.,before|after|never before,0,,,Feasibility analysis must happen before committing any real money or resources to ensure the project is even possible and worth pursuing.
+35,7,multiple_choice,exercise,32,What does feasibility analysis avoid?,Wasted resources|Clear goals|Real users,0,,,"The entire point of feasibility analysis is to identify potential roadblocks early so you don't waste time or money on an unworkable idea. Clear goals and real users are things you need, not avoid."
+36,8,true_false,preview,37,High-level design sketches a system's overall shape.,,true,,,"That’s right; high-level design focuses on the overall architecture and major components, essentially mapping out the system's skeleton before detailing any specific parts."
 37,8,multiple_choice,main,,What does high-level design sketch?,Overall shape|Exact code|A font,0,cards/card_37.png,,"Low-level design comes after, working out the detailed internals — it's the more detailed of the two."
-38,8,true_false,exercise,37,Low-level design comes after high-level design.,,true,,,
-39,8,select_blank,exercise,37,Low-level design works out detailed ___.,internals|logos|fonts,0,,,
-40,8,multiple_choice,exercise,37,Which is more detailed?,Low-level design|High-level design|Neither,0,,,
-41,9,true_false,preview,42,A design document is written before the code.,,true,,,
+38,8,true_false,exercise,37,Low-level design comes after high-level design.,,true,,,"Correct. You must first establish the overall structure with a high-level view before you can dive into the specific, detailed mechanics of each component."
+39,8,select_blank,exercise,37,Low-level design works out detailed ___.,internals|logos|fonts,0,,,"Exactly; this stage involves mapping out the specific processes, algorithms, and detailed internal logic of how each component will actually function."
+40,8,multiple_choice,exercise,37,Which is more detailed?,Low-level design|High-level design|Neither,0,,,Low-level design is more detailed because it specifies the exact implementation details—like specific algorithms and class methods—whereas high-level design only provides a broad overview.
+41,9,true_false,preview,42,A design document is written before the code.,,true,,,"Yes, writing the document first forces the team to plan and agree on the architecture before getting bogged down in actual syntax or coding details."
 42,9,multiple_choice,main,,When is a design document written?,Before code|After code|Never,0,cards/card_42.png,,It also helps the team agree on the approach before any code exists.
-43,9,true_false,exercise,42,A design document helps a team agree on an approach.,,true,,,
-44,9,select_blank,exercise,42,A design document records the ___ before coding.,plan|logo|font,0,,,
-45,9,multiple_choice,exercise,42,What does a design document describe?,System structure|Meeting time|A font,0,,,
-46,10,true_false,preview,47,A prototype is meant to be rough and disposable.,,true,cards/card_46.png,,
+43,9,true_false,exercise,42,A design document helps a team agree on an approach.,,true,,,It is crucial because the design document acts as a single source of truth where all stakeholders can review and gain consensus on the technical approach.
+44,9,select_blank,exercise,42,A design document records the ___ before coding.,plan|logo|font,0,,,"The document records the architectural plan for the system, which outlines how it should function before any actual coding begins."
+45,9,multiple_choice,exercise,42,What does a design document describe?,System structure|Meeting time|A font,0,,,It describes the overall architecture and structure of the software—how all the different components fit together—not aesthetic elements like fonts or meeting schedules.
+46,10,true_false,preview,47,A prototype is meant to be rough and disposable.,,true,cards/card_46.png,,It's true because the goal of a prototype isn't perfection; it's just enough structure to test your core idea quickly before investing heavily in polish.
 47,10,multiple_choice,main,,What is a prototype meant to be?,"Rough, disposable|Final, polished|A logo",0,,,"It exists to test an idea quickly and cheaply, which is also why it's usually discarded rather than kept."
-48,10,true_false,exercise,47,A prototype is meant to test an idea.,,true,,,
-49,10,select_blank,exercise,47,A prototype is often ___.,discarded|kept forever|deployed live,0,,,
-50,10,multiple_choice,exercise,47,Why build a prototype first?,Cheap testing|Faster ship|Skip design,0,,,
-51,11,true_false,preview,52,Coding standards keep the codebase style consistent.,,true,,,
+48,10,true_false,exercise,47,A prototype is meant to test an idea.,,true,,,"Absolutely, that's its entire purpose—to validate whether your concept works in practice and identify flaws before you build the final product."
+49,10,select_blank,exercise,47,A prototype is often ___.,discarded|kept forever|deployed live,0,,,"Prototypes are designed to fail or be replaced; they are disposable tools used solely for gathering feedback and proving concepts, not for long-term use."
+50,10,multiple_choice,exercise,47,Why build a prototype first?,Cheap testing|Faster ship|Skip design,0,,,The main benefit is that you can test risky ideas cheaply and quickly; this prevents you from wasting time and money building something nobody wants.
+51,11,true_false,preview,52,Coding standards keep the codebase style consistent.,,true,,,That's right; standards enforce rules—like naming conventions or indentation—so that any developer can jump into the code and understand it immediately.
 52,11,multiple_choice,main,,What do coding standards keep consistent?,The codebase|The logo|The font,0,cards/card_52.png,,"That consistency holds across every contributor working in the codebase, not just one."
-53,11,true_false,exercise,52,Coding standards are shared across contributors.,,true,,,
-54,11,select_blank,exercise,52,Standards apply across ___ contributors.,many|zero|one,0,,,
-55,11,multiple_choice,exercise,52,What happens without shared standards?,Inconsistent code|Faster builds|Fewer bugs,0,,,
+53,11,true_false,exercise,52,Coding standards are shared across contributors.,,true,,,Coding standards are essential because they provide a consistent style guide that all contributors must follow to keep the codebase uniform.
+54,11,select_blank,exercise,52,Standards apply across ___ contributors.,many|zero|one,0,,,"Standards need to apply across many contributors so that everyone writing code adheres to the same rules, regardless of who wrote it before."
+55,11,multiple_choice,exercise,52,What happens without shared standards?,Inconsistent code|Faster builds|Fewer bugs,0,,,"Without shared standards, different people will write code in varying styles and ways, leading directly to inconsistent code that is hard to maintain."
 56,12,true_false,preview,57,Version control tracks every change to the code.,,true,,,
 57,12,multiple_choice,main,,What does version control track?,Every change|Only releases|Only meetings,0,cards/card_57.png,,"It runs throughout the whole SDLC, starting from the very first commit."
 58,12,true_false,exercise,57,Version control is used only at the very end.,,false,,,"It runs throughout the whole SDLC, not just at the end."
-59,12,select_blank,exercise,57,Version control runs ___ the SDLC.,throughout|only after|never during,0,,,
-60,12,multiple_choice,exercise,57,When does version control tracking start?,First commit|Last release|Never,0,,,
+59,12,select_blank,exercise,57,Version control runs ___ the SDLC.,throughout|only after|never during,0,,,Version control must run throughout the entire Software Development Life Cycle (SDLC) because tracking changes needs to happen from the initial idea through deployment.
+60,12,multiple_choice,exercise,57,When does version control tracking start?,First commit|Last release|Never,0,,,"Version control tracking starts with the very first commit, as that is when you are formally saving and recording the initial state of your code."
 61,13,true_false,preview,62,A code review happens before code gets merged.,,true,,,
 62,13,multiple_choice,main,,When does a code review happen?,Before merging|After deploy|Never,0,cards/card_62.png,,"It's a teammate reviewing your code, catching issues while they're still cheap to fix."
 63,13,true_false,exercise,62,Code review catches issues while they are cheap to fix.,,true,,,
@@ -67,18 +67,18 @@ id,unit_id,type,role,related_main_id,prompt,options,correct_index,image,audio,ex
 66,14,true_false,preview,67,Pair programming has two developers working together.,,true,,,
 67,14,multiple_choice,main,,How many developers work together in a pair?,Two|One|Zero,0,cards/card_67.png,,They work together in real time — one types while the other reviews live.
 68,14,true_false,exercise,67,Pair programming happens in real time together.,,true,,,
-69,14,select_blank,exercise,67,One person types while the other ___.,reviews|sleeps|leaves,0,,,
-70,14,multiple_choice,exercise,67,What happens as the pair works?,Live review|No review|A delay,0,,,
-71,15,true_false,preview,72,"Testing happens throughout the SDLC, not just the end.",,true,,,
+69,14,select_blank,exercise,67,One person types while the other ___.,reviews|sleeps|leaves,0,,,"In pair programming, the second person acts as an 'observer' or reviewer, watching the code and thinking about potential issues while the first person types."
+70,14,multiple_choice,exercise,67,What happens as the pair works?,Live review|No review|A delay,0,,,"The core benefit of pairing is that the second person constantly reviews the code in real-time, catching errors or suggesting improvements immediately. This continuous feedback loop is what makes it effective."
+71,15,true_false,preview,72,"Testing happens throughout the SDLC, not just the end.",,true,,,This is correct because finding bugs later in the cycle is much more expensive and time-consuming than catching them when requirements are being written or code is first drafted.
 72,15,select_blank,main,,"Testing belongs ___ the SDLC, not just the end.",throughout|only|never|rarely,0,cards/card_72.png,,"Testing belongs throughout the whole cycle, starting from early requirements onward — treating it as one final phase is a common mistake."
-73,15,select_blank,exercise,72,Testing belongs ___ the whole SDLC.,throughout|only after|never during,0,,,
-74,15,multiple_choice,exercise,72,When can testing start?,Early requirements|Only at launch|Never,0,,,
-75,15,true_false,exercise,72,Treating testing as one final phase is a common mistake.,,true,,,
-76,16,select_blank,preview,77,A system test checks the whole ___.,product|meeting|font,0,,,
+73,15,select_blank,exercise,72,Testing belongs ___ the whole SDLC.,throughout|only after|never during,0,,,"Testing isn't a phase you tack on at the end; it must be integrated into every stage, from initial requirements gathering to final deployment."
+74,15,multiple_choice,exercise,72,When can testing start?,Early requirements|Only at launch|Never,0,,,"Testing should begin as soon as possible, ideally during the requirements phase. This concept, often called 'shifting left,' ensures that flaws are caught before they become deeply embedded in the code."
+75,15,true_false,exercise,72,Treating testing as one final phase is a common mistake.,,true,,,"Testing must be continuous throughout the entire development lifecycle, not just at the end. Waiting until the final phase means bugs are much harder and more expensive to fix."
+76,16,select_blank,preview,77,A system test checks the whole ___.,product|meeting|font,0,,,"System testing validates the complete application or product to ensure it meets all requirements end-to-end. It checks the whole system, not just a single meeting flow or component."
 77,16,multiple_choice,main,,What does a system test check?,Whole product|One function|A meeting,0,cards/card_77.png,,"Unit tests check one function, integration tests check parts working together, and acceptance tests check it against real needs."
-78,16,true_false,exercise,77,Acceptance tests check against real needs.,,true,,,
-79,16,select_blank,exercise,77,A unit test checks one ___.,function|product|meeting,0,,,
-80,16,multiple_choice,exercise,77,What does an integration test check?,Parts together|One function|A logo,0,,,
+78,16,true_false,exercise,77,Acceptance tests check against real needs.,,true,,,"This is correct because acceptance tests confirm that the system actually solves the problem for the end-user or client, validating real business needs rather than just technical functionality."
+79,16,select_blank,exercise,77,A unit test checks one ___.,function|product|meeting,0,,,"Unit testing focuses on the smallest isolated components, like a single function or method. This ensures that specific piece of logic works perfectly before integrating it anywhere else."
+80,16,multiple_choice,exercise,77,What does an integration test check?,Parts together|One function|A logo,0,,,"Integration testing verifies that different parts or modules of the system work correctly when connected together. It checks how they interact, not just if one function works in isolation."
 81,17,true_false,preview,82,"In TDD, you write a failing test first.",,true,,,
 82,17,multiple_choice,main,,What comes first in TDD?,Failing test|Passing code|A meeting,0,cards/card_82.png,,"After that failing test, you write just enough code to make it pass."
 83,17,true_false,exercise,82,TDD writes just enough code to pass the test.,,true,,,
@@ -86,60 +86,60 @@ id,unit_id,type,role,related_main_id,prompt,options,correct_index,image,audio,ex
 85,17,multiple_choice,exercise,82,What is the first TDD test meant to do?,Fail|Pass|Do nothing,0,,,
 86,18,true_false,preview,87,Canary releases first shift a small slice of traffic.,,true,cards/card_86.png,,
 87,18,multiple_choice,main,,What does canary do first?,A slice|Everything|Nothing,0,cards/card_87.png,,Blue-green instead swaps traffic to a whole new environment at once — both approaches exist to reduce release risk.
-88,18,true_false,exercise,87,Blue-green switches traffic to a whole new environment.,,true,,,
-89,18,select_blank,exercise,87,Canary tests a small ___ of traffic first.,slice|logo|font,0,,,
-90,18,multiple_choice,exercise,87,What do both strategies aim to reduce?,Release risk|Build time|Test count,0,,,
-91,19,true_false,preview,92,Continuous integration merges code changes frequently.,,true,,,
+88,18,true_false,exercise,87,Blue-green switches traffic to a whole new environment.,,true,,,That is correct; blue-green deployment involves running two identical environments so you can switch all user traffic instantly when one environment is fully validated.
+89,18,select_blank,exercise,87,Canary tests a small ___ of traffic first.,slice|logo|font,0,,,"Canary deployments test the new code by routing a small 'slice' of live user traffic to it first, which significantly reduces the risk compared to a full rollout."
+90,18,multiple_choice,exercise,87,What do both strategies aim to reduce?,Release risk|Build time|Test count,0,,,Both canary and blue-green strategies are designed to minimize release risk by allowing gradual rollouts and providing instant rollback options if issues arise.
+91,19,true_false,preview,92,Continuous integration merges code changes frequently.,,true,,,"Yes, continuous integration is all about merging code changes frequently—ideally multiple times a day—to ensure that conflicts are caught immediately rather than weeks later."
 92,19,multiple_choice,main,,How often does CI merge changes?,Frequently|Yearly|Never,0,cards/card_92.png,,"It also runs tests on each change, avoiding one huge merge at the end."
 93,19,true_false,exercise,92,CI merges changes in small batches.,,true,,,
-94,19,select_blank,exercise,92,CI avoids one huge merge at the ___.,end|start|middle,0,,,
-95,19,multiple_choice,exercise,92,What does CI run on each change?,Tests|A meeting|Logo update,0,,,
-96,20,true_false,preview,97,Continuous deployment releases every passing change automatically.,,true,,,
+94,19,select_blank,exercise,92,CI avoids one huge merge at the ___.,end|start|middle,0,,,"The whole point of Continuous Integration is that developers commit small changes frequently, preventing a massive, risky merge at the end of a development cycle."
+95,19,multiple_choice,exercise,92,What does CI run on each change?,Tests|A meeting|Logo update,0,,,"CI's primary function is to automatically run your test suite every time new code is committed, which immediately verifies that the change hasn't broken anything else."
+96,20,true_false,preview,97,Continuous deployment releases every passing change automatically.,,true,,,That is exactly what continuous deployment means: passing all automated checks automatically results in an immediate production release without any human sign-off.
 97,20,multiple_choice,main,,What does continuous deployment do automatically?,Releases changes|Writes tests|Reviews code,0,cards/card_97.png,,"Continuous delivery, by contrast, keeps a manual release step — deployment auto-releases every passing change, fully automated end to end."
-98,20,true_false,exercise,97,Continuous delivery still has a manual release step.,,true,,,
-99,20,select_blank,exercise,97,Continuous deployment releases every ___ change.,passing|failing|random,0,,,
-100,20,multiple_choice,exercise,97,Which one is fully automated end to end?,Continuous deployment|Continuous delivery|Neither,0,,,
-101,21,true_false,preview,102,Release management coordinates exactly what ships and when.,,true,,,
+98,20,true_false,exercise,97,Continuous delivery still has a manual release step.,,true,,,"In continuous delivery, the code is always ready to ship, but there's still a manual decision or approval step required before it actually goes live."
+99,20,select_blank,exercise,97,Continuous deployment releases every ___ change.,passing|failing|random,0,,,"Continuous deployment means that any code change that passes all automated tests is automatically released to production, ensuring only stable updates go live."
+100,20,multiple_choice,exercise,97,Which one is fully automated end to end?,Continuous deployment|Continuous delivery|Neither,0,,,"Continuous deployment goes the extra step of automatically releasing every passing build directly into production, which is more automated than continuous delivery."
+101,21,true_false,preview,102,Release management coordinates exactly what ships and when.,,true,,,"This is correct because release management is fundamentally about coordinating the timing, scope, and sequence of all deployments to ensure a smooth transition."
 102,21,multiple_choice,main,,What does release management coordinate?,What ships|Only fonts|Only logos,0,cards/card_102.png,,"That makes a release deliberate, not accidental."
-103,21,true_false,exercise,102,"A release should be deliberate, not accidental.",,true,,,
-104,21,select_blank,exercise,102,Release management plans exactly what ___.,ships|colors exist|fonts exist,0,,,
-105,21,multiple_choice,exercise,102,What is the opposite of a planned release?,Accidental one|Tested one|Documented one,0,,,
-106,22,multiple_choice,preview,107,Why does software change after shipping?,Bug fixes|New logo|No testing,0,,,
+103,21,true_false,exercise,102,"A release should be deliberate, not accidental.",,true,,,Releases must always be intentional and planned out; treating them as accidents leads to unpredictable failures in production.
+104,21,select_blank,exercise,102,Release management plans exactly what ___.,ships|colors exist|fonts exist,0,,,"Release management focuses specifically on coordinating which versions or features are packaged and deployed, meaning it plans what code 'ships'."
+105,21,multiple_choice,exercise,102,What is the opposite of a planned release?,Accidental one|Tested one|Documented one,0,,,"A planned release is intentional and scheduled, so its opposite must be something unexpected or unplanned, like an accidental one. 'Tested' or 'documented' still imply a degree of control."
+106,22,multiple_choice,preview,107,Why does software change after shipping?,Bug fixes|New logo|No testing,0,,,The main reason software changes after shipping is to fix bugs that users find in the real world. Changing logos or having no testing done doesn't explain why updates are necessary.
 107,22,multi_select,main,,Pick reasons for post-ship maintenance.,Fixing bugs|Adding features|Preventing bugs|Logo change,0|1|2,cards/card_107.png,,"A fourth reason: adapting to a new environment, like a platform or OS update."
-108,22,true_false,exercise,107,Software can be changed to adapt to a new environment.,,true,,,
-109,22,select_blank,exercise,107,Maintenance happens ___ a system first ships.,after|before|never after,0,,,
-110,22,multiple_choice,exercise,107,Give an example maintenance reason.,Bug fix|Font swap|Logo swap,0,,,
-111,23,true_false,preview,112,Monitoring helps find real problems early.,,true,,,
+108,22,true_false,exercise,107,Software can be changed to adapt to a new environment.,,true,,,This is true because environments change—whether it’s an operating system update or new hardware requirements—and the software must be modified to keep functioning correctly.
+109,22,select_blank,exercise,107,Maintenance happens ___ a system first ships.,after|before|never after,0,,,"Maintenance, by definition, involves supporting and updating a system after it has been deployed to users. You can't maintain something that hasn't been built and released yet."
+110,22,multiple_choice,exercise,107,Give an example maintenance reason.,Bug fix|Font swap|Logo swap,0,,,"A bug fix is the most common example of maintenance because it corrects unexpected or faulty behavior in a live system. Font swaps are usually minor updates, not core maintenance reasons."
+111,23,true_false,preview,112,Monitoring helps find real problems early.,,true,,,"Monitoring systems are designed to watch metrics and patterns continuously, allowing you to spot anomalies or degradation before they escalate into critical failures."
 112,23,multiple_choice,main,,What does monitoring help find early?,Real problems|Logo issue|Font issue,0,cards/card_112.png,,It watches the live system continuously — the weak alternative is just waiting for users to complain.
-113,23,true_false,exercise,112,Monitoring can catch a problem before users report it.,,true,,,
-114,23,select_blank,exercise,112,Monitoring watches a ___ system continuously.,live|deleted|paused,0,,,
-115,23,multiple_choice,exercise,112,What is a weak alternative to monitoring?,Waiting|Real alerts|Live view,0,,,
-116,24,true_false,preview,117,"During an incident, restoring service comes first.",,true,cards/card_116.png,,
+113,23,true_false,exercise,112,Monitoring can catch a problem before users report it.,,true,,,"That's the primary benefit of monitoring—it provides visibility into system health that is invisible to end-users, letting you fix things proactively rather than reactively."
+114,23,select_blank,exercise,112,Monitoring watches a ___ system continuously.,live|deleted|paused,0,,,Monitoring needs to watch what is currently operational; 'deleted' or 'paused' systems aren't generating real-time data problems that require continuous oversight.
+115,23,multiple_choice,exercise,112,What is a weak alternative to monitoring?,Waiting|Real alerts|Live view,0,,,"Simply waiting for something to break is the definition of reactive maintenance, meaning you only respond after the failure has already occurred. Alerts or live views are proactive tools designed to prevent that delay."
+116,24,true_false,preview,117,"During an incident, restoring service comes first.",,true,cards/card_116.png,,"That's right; during an active incident, the absolute priority is restoring functionality to minimize user impact."
 117,24,multiple_choice,main,,What is the first priority during an incident?,Restore service|Write docs|Rename logo,0,,,"The deeper root-cause investigation happens afterward, once service is back up."
-118,24,true_false,exercise,117,Root-cause analysis can happen after service is restored.,,true,,,
-119,24,select_blank,exercise,117,"During an incident, restoring service comes ___.",first|last|never,0,,,
-120,24,multiple_choice,exercise,117,When does deep root-cause work usually happen?,After restore|Before it|Never,0,,,
-121,25,true_false,preview,122,"A feature should be deprecated deliberately, not silently.",,true,,,
+118,24,true_false,exercise,117,Root-cause analysis can happen after service is restored.,,true,,,"Yes, that’s correct. Root-cause analysis (RCA) is a post-mortem activity that happens only after the system has been stabilized and service restored."
+119,24,select_blank,exercise,117,"During an incident, restoring service comes ___.",first|last|never,0,,,It must come first because the immediate goal during any outage is getting functionality back online to minimize downtime.
+120,24,multiple_choice,exercise,117,When does deep root-cause work usually happen?,After restore|Before it|Never,0,,,Deep root-cause work always happens after restoration. You need a stable system and time to analyze logs without the pressure of an active outage.
+121,25,true_false,preview,122,"A feature should be deprecated deliberately, not silently.",,true,,,Absolutely. Deprecating features requires clear communication so that users have adequate time to update their systems before the feature is removed.
 122,25,multiple_choice,main,,How should a feature be retired?,Deliberately|Silently|Never,0,cards/card_122.png,,"That means a warning to users, a timeline, and a plan — not silently letting it rot."
-123,25,true_false,exercise,122,Deprecation usually includes a warning to users.,,true,,,
-124,25,select_blank,exercise,122,Deprecation avoids letting a feature quietly ___.,rot|ship|launch,0,,,
-125,25,multiple_choice,exercise,122,What should a deprecation plan include?,A timeline|New logo|New font,0,,,
-126,26,true_false,preview,127,Waterfall moves through phases in strict order.,,true,,,
+123,25,true_false,exercise,122,Deprecation usually includes a warning to users.,,true,,,"Deprecation is fundamentally about managing change, so including warnings to users is standard practice to give them time to adapt."
+124,25,select_blank,exercise,122,Deprecation avoids letting a feature quietly ___.,rot|ship|launch,0,,,The goal of deprecation is to prevent features from quietly decaying or becoming unusable without anyone noticing; this process is often called letting something 'rot out'.
+125,25,multiple_choice,exercise,122,What should a deprecation plan include?,A timeline|New logo|New font,0,,,"Because deprecation is a planned transition, the most critical element in any plan must be a clear timeline so users know when and why things are changing."
+126,26,true_false,preview,127,Waterfall moves through phases in strict order.,,true,,,"That's correct; Waterfall is highly linear, meaning you must complete one phase entirely before moving on to the next, much like water flowing over a falls."
 127,26,multiple_choice,main,,How does Waterfall move through phases?,Strict order|At once|Randomly,0,cards/card_127.png,,That strict order also makes late changes hard to absorb once a phase is already done.
-128,26,true_false,exercise,127,"In Waterfall, a phase finishes before the next begins.",,true,,,
-129,26,select_blank,exercise,127,Waterfall is a strictly ___ model.,sequential|parallel|random,0,,,
+128,26,true_false,exercise,127,"In Waterfall, a phase finishes before the next begins.",,true,,,Exactly. The model demands that each stage be fully completed and signed off before development can proceed to the subsequent step.
+129,26,select_blank,exercise,127,Waterfall is a strictly ___ model.,sequential|parallel|random,0,,,The Waterfall model is strictly sequential because it requires that one phase must be fully completed and signed off before the next phase can begin.
 130,26,multiple_choice,exercise,127,What can Waterfall struggle with?,Late changes|Fixed scope|Clear phases,0,,,
 131,27,true_false,preview,132,The V-Model pairs dev phases with test phases.,,true,,,
 132,27,multiple_choice,main,,What does the V-Model pair with each dev phase?,Test phase|Logo phase|Font phase,0,cards/card_132.png,,"It extends the Waterfall model, and gets its name from the V shape this pairing draws."
-133,27,true_false,exercise,132,The V-Model extends the Waterfall idea.,,true,,,
-134,27,select_blank,exercise,132,Test planning happens ___ development in the V-Model.,alongside|never with|only after,0,,,
-135,27,multiple_choice,exercise,132,What shape gives the V-Model its name?,V shape|A circle|A line,0,,,
-136,28,true_false,preview,137,The Iterative model improves a system through cycles.,,true,,,
+133,27,true_false,exercise,132,The V-Model extends the Waterfall idea.,,true,,,"It does extend Waterfall by adding a formal, structured relationship between development phases and corresponding testing phases, making the process more rigorous."
+134,27,select_blank,exercise,132,Test planning happens ___ development in the V-Model.,alongside|never with|only after,0,,,"In the V-Model, test planning happens alongside development because you must plan how to test something while you are designing it, not just after coding is done."
+135,27,multiple_choice,exercise,132,What shape gives the V-Model its name?,V shape|A circle|A line,0,,,"The model gets its name from the visual representation of mapping the corresponding testing phases (validation) and development phases (verification), which forms a 'V' shape."
+136,28,true_false,preview,137,The Iterative model improves a system through cycles.,,true,,,"Yes, that's exactly how it works; instead of one big release, you build and refine the system in smaller, repeating loops or cycles."
 137,28,multiple_choice,main,,How does the Iterative model improve a system?,Repeated cycles|At once|Never,0,cards/card_137.png,,"It avoids building the whole system at once, favoring small repeated passes instead."
-138,28,true_false,exercise,137,Each iteration improves the system a bit more.,,true,,,
-139,28,select_blank,exercise,137,The Iterative model uses repeated ___.,cycles|logos|fonts,0,,,
-140,28,multiple_choice,exercise,137,What does the Iterative model avoid?,Big build|Repetition|Planning,0,,,
-141,29,true_false,preview,142,The Spiral model adds risk analysis to each cycle.,,true,,,
+138,28,true_false,exercise,137,Each iteration improves the system a bit more.,,true,,,"Correct. The whole point of iterating is that each cycle builds upon the previous one, adding refinement and functionality incrementally."
+139,28,select_blank,exercise,137,The Iterative model uses repeated ___.,cycles|logos|fonts,0,,,"It relies on repeating development cycles, which allows the team to test and refine features gradually rather than waiting for one massive release."
+140,28,multiple_choice,exercise,137,What does the Iterative model avoid?,Big build|Repetition|Planning,0,,,"It specifically avoids the 'big bang' approach, where you wait until everything is finished and then try to deploy it all at once."
+141,29,true_false,preview,142,The Spiral model adds risk analysis to each cycle.,,true,,,"That is the key differentiator; unlike other models, the Spiral model explicitly includes a dedicated phase for identifying and mitigating risks in every loop."
 142,29,multiple_choice,main,,What does Spiral add to iteration?,Risk analysis|New logo|New font,0,cards/card_142.png,,"That risk-analysis step happens at the start of every single cycle, not just once."
 143,29,true_false,exercise,142,Risk analysis happens every cycle in the Spiral model.,,true,,,
 144,29,select_blank,exercise,142,Spiral pairs iteration with explicit ___ analysis.,risk|logo|font,0,,,
@@ -147,32 +147,32 @@ id,unit_id,type,role,related_main_id,prompt,options,correct_index,image,audio,ex
 146,30,true_false,preview,147,Agile delivers working software in short cycles.,,true,,,
 147,30,multiple_choice,main,,What does Agile deliver in short cycles?,Working software|Design doc|A logo,0,cards/card_147.png,,"Those cycles are short and frequent, adjusting based on feedback as it comes in."
 148,30,true_false,exercise,147,Agile adjusts based on ongoing feedback.,,true,,,
-149,30,select_blank,exercise,147,Agile cycles are short and ___.,frequent|rare|yearly,0,,,
-150,30,multiple_choice,exercise,147,What drives changes in the Agile model?,Feedback|Fixed plan|Nothing,0,,,
-151,31,true_false,preview,152,DevOps merges development and operations into one team.,,true,cards/card_151.png,,
+149,30,select_blank,exercise,147,Agile cycles are short and ___.,frequent|rare|yearly,0,,,"Agile methodology requires rapid iteration, so the cycles are designed to be both short and frequent to allow for quick adjustments based on feedback."
+150,30,multiple_choice,exercise,147,What drives changes in the Agile model?,Feedback|Fixed plan|Nothing,0,,,"The entire philosophy of Agile revolves around adapting to reality; it uses continuous feedback from stakeholders and users, rather than sticking rigidly to an initial fixed plan."
+151,31,true_false,preview,152,DevOps merges development and operations into one team.,,true,cards/card_151.png,,That is correct. DevOps fundamentally breaks down the traditional silos between Development (building) and Operations (running).
 152,31,multiple_choice,main,,What does DevOps merge?,"Dev, operations|Two logos|Two fonts",0,cards/card_152.png,,"It evolved from the traditional SDLC's separate dev and ops teams, aiming for faster, more reliable delivery."
-153,31,true_false,exercise,152,"DevOps aims for faster, more reliable delivery.",,true,,,
-154,31,select_blank,exercise,152,DevOps treats dev and ops as ___ responsibility.,shared|separate|no,0,,,
-155,31,multiple_choice,exercise,152,What does DevOps evolve from?,Traditional SDLC|New font|New logo,0,,,
-156,32,true_false,preview,157,Documentation should be kept at every SDLC phase.,,true,,,
+153,31,true_false,exercise,152,"DevOps aims for faster, more reliable delivery.",,true,,,"Yes, that's the goal. By automating processes and improving communication, DevOps ensures software moves from concept to customer much faster and with fewer errors."
+154,31,select_blank,exercise,152,DevOps treats dev and ops as ___ responsibility.,shared|separate|no,0,,,DevOps requires breaking down those old walls; responsibilities for stability and deployment must be jointly owned by both development and operations teams.
+155,31,multiple_choice,exercise,152,What does DevOps evolve from?,Traditional SDLC|New font|New logo,0,,,"DevOps is an evolution that improves upon the rigid, sequential steps of the traditional SDLC by emphasizing collaboration and continuous feedback."
+156,32,true_false,preview,157,Documentation should be kept at every SDLC phase.,,true,,,Documentation must be kept at every stage because it ensures knowledge transfer and maintains a clear record of decisions as the project progresses.
 157,32,multiple_choice,main,,When should documentation be kept?,Every phase|Only end|Never,0,cards/card_157.png,,Not just dumped as one pile of docs at the very end.
 158,32,true_false,exercise,157,Documentation should only appear at the very end.,,false,,,"Useful documentation is kept at every phase, not dumped all at the end."
-159,32,select_blank,exercise,157,"Documentation should be ___, not a big dump.",ongoing|hidden|deleted,0,,,
-160,32,multiple_choice,exercise,157,What is a weak documentation habit?,End dump|Updates|Clear notes,0,,,
-161,33,true_false,preview,162,Compliance work keeps a traceable record of decisions.,,true,cards/card_161.png,,
+159,32,select_blank,exercise,157,"Documentation should be ___, not a big dump.",ongoing|hidden|deleted,0,,,"The documentation process needs to be ongoing, meaning it evolves alongside the code rather than being a massive, overwhelming collection of notes dumped at the end."
+160,32,multiple_choice,exercise,157,What is a weak documentation habit?,End dump|Updates|Clear notes,0,,,An 'end dump' is weak because waiting until the project concludes means you are likely to forget context or details that were critical during development.
+161,33,true_false,preview,162,Compliance work keeps a traceable record of decisions.,,true,cards/card_161.png,,"Compliance work is essential for maintaining accountability, as it requires keeping a detailed and traceable record of every decision made throughout the software lifecycle."
 162,33,multiple_choice,main,,What does an audit trail keep?,A record|New logo|New font,0,,,"It matters especially for regulated or high-stakes systems, giving real accountability."
-163,33,true_false,exercise,162,Audit trails matter more for regulated systems.,,true,,,
-164,33,select_blank,exercise,162,An audit trail records past ___.,decisions|logos|fonts,0,,,
-165,33,multiple_choice,exercise,162,Why does compliance matter for high-stakes systems?,Real accountability|Faster builds|Nicer fonts,0,,,
-166,34,true_false,preview,167,The right SDLC model depends on a project's risk.,,true,,,
+163,33,true_false,exercise,162,Audit trails matter more for regulated systems.,,true,,,"Audit trails are critical in regulated environments because they provide an undeniable record of who did what and when, which is necessary for legal compliance."
+164,33,select_blank,exercise,162,An audit trail records past ___.,decisions|logos|fonts,0,,,"An audit trail tracks system activity and changes over time, recording operational decisions made by users or the system itself."
+165,33,multiple_choice,exercise,162,Why does compliance matter for high-stakes systems?,Real accountability|Faster builds|Nicer fonts,0,,,"Compliance matters because it ensures that the system meets industry standards and legal requirements, establishing real accountability when failures occur."
+166,34,true_false,preview,167,The right SDLC model depends on a project's risk.,,true,,,The level of risk dictates how much structure you need; high-risk projects require more rigorous models to manage uncertainty effectively.
 167,34,multiple_choice,main,,What should drive the choice of SDLC model?,"Risk, size|Personal taste|Coin flip",0,cards/card_167.png,,It also depends on how well-understood the requirements already are — there's no single universal best answer.
 168,34,true_false,exercise,167,There is one universal best SDLC model for everyone.,,false,,,"The right fit depends on the specific project, not one universal answer."
-169,34,select_blank,exercise,167,Fit the model to the project's actual ___.,needs|logo|font,0,,,
+169,34,select_blank,exercise,167,Fit the model to the project's actual ___.,needs|logo|font,0,,,"A development model must be tailored to the actual functional and business needs of the project, not merely its visual branding or design elements."
 170,34,multiple_choice,exercise,167,What matters when picking a model?,Well-understood scope|Font choice|Logo color,0,,,
-171,22,multiple_choice,exercise,107,Which is preventive maintenance?,Risk fix|Live fix|Logo change,0,,,
-172,3,order,exercise,12,Order the core SDLC phases.,Requirements|Design|Build|Test|Deploy|Maintain,,,,
+171,22,multiple_choice,exercise,107,Which is preventive maintenance?,Risk fix|Live fix|Logo change,0,,,"Preventive maintenance focuses on mitigating potential issues before they become actual failures, which is exactly what fixing risks does. A logo change or a live fix only addresses symptoms or cosmetic problems."
+172,3,order,exercise,12,Order the core SDLC phases.,Requirements|Design|Build|Test|Deploy|Maintain,,,,"The standard sequence moves from Requirements to Design, then Build, followed by rigorous Testing, deployment, and finally ongoing Maintenance."
 173,16,order,exercise,77,"Order the test levels, narrowest first.",Unit|Integration|System|Acceptance,,,,
-174,17,order,exercise,82,Order the TDD steps.,Write a failing test|Write code to pass it|Clean up the code,,,,
-175,19,order,exercise,92,Order a CI cycle's steps.,Make a small change|Merge into main|Automated tests run,,,,
+174,17,order,exercise,82,Order the TDD steps.,Write a failing test|Write code to pass it|Clean up the code,,,,"The process must follow this order: first write a failing test to prove what's missing, then write just enough code to make it pass, and finally clean up the rest of the implementation."
+175,19,order,exercise,92,Order a CI cycle's steps.,Make a small change|Merge into main|Automated tests run,,,,"The process flows from making a small change, merging it into the main branch, and then triggering automated tests to validate the combined code."
 176,26,order,exercise,127,Order Waterfall's phases.,Requirements|Design|Implementation|Testing|Deployment,,,,
-177,27,order,exercise,132,"Order the V-Model, down then up.",Requirements|Design|Coding|Unit testing|Integration testing|Acceptance testing,,,,
+177,27,order,exercise,132,"Order the V-Model, down then up.",Requirements|Design|Coding|Unit testing|Integration testing|Acceptance testing,,,,"You start at Requirements, move down through Design and Coding, and then ascend up the other side with Unit testing, Integration testing, and Acceptance testing."
