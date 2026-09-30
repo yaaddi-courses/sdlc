@@ -1,10 +1,10 @@
 id,unit_id,type,role,related_main_id,prompt,options,correct_index,image,audio,explanation
-1,1,true_false,preview,2,SDLC describes a lifecycle from idea to retirement.,,true,,,
+1,1,true_false,preview,2,SDLC describes a lifecycle from idea to retirement.,,true,,,"True. The SDLC describes the stages software goes through, from the first idea to retirement."
 2,1,multiple_choice,main,,What does SDLC describe?,A sequence|One tool|A meeting,0,,,It's a structured sequence of phases (software development lifecycle) — from idea to retirement.
-3,1,true_false,exercise,2,SDLC covers a system from idea to retirement.,,true,,,
-4,1,select_blank,exercise,2,SDLC stands for software development ___.,lifecycle|tool|meeting,0,,,
-5,1,multiple_choice,exercise,2,What is SDLC made up of?,Phases|One step|A logo,0,,,
-6,2,true_false,preview,7,A defined process helps catch problems earlier.,,true,,,
+3,1,true_false,exercise,2,SDLC covers a system from idea to retirement.,,true,,,"True. It covers a system's whole life: planning, building, running and finally retiring it."
+4,1,select_blank,exercise,2,SDLC stands for software development ___.,lifecycle|tool|meeting,0,,,"SDLC stands for software development lifecycle, the stages software passes through."
+5,1,multiple_choice,exercise,2,What is SDLC made up of?,Phases|One step|A logo,0,,,"The SDLC is made up of phases, such as requirements, design, implementation, testing and deployment."
+6,2,true_false,preview,7,A defined process helps catch problems earlier.,,true,,,"True. A defined process makes problems, like unclear requirements, show up earlier when they are cheaper to fix."
 7,2,multiple_choice,main,,What does a defined process help catch?,Problems earlier|Nothing new|Only typos,0,,,"A defined process also keeps work repeatable, instead of reinventing things each time."
 8,2,true_false,exercise,7,Ad-hoc coding makes work more repeatable.,,false,,,"A defined process is what makes work repeatable, not ad-hoc coding."
 9,2,select_blank,exercise,7,Process makes work more ___.,repeatable|random|hidden,0,,,"A process establishes a standardized way of doing things, which inherently makes the work repeatable and consistent. Randomness is what you try to eliminate when building reliable systems."
@@ -16,18 +16,18 @@ id,unit_id,type,role,related_main_id,prompt,options,correct_index,image,audio,ex
 15,3,multiple_choice,exercise,12,Name a core SDLC phase.,Testing|A font|A logo,0,,,"Testing is a core phase of the SDLC where you validate that the software works correctly; fonts and logos are just design elements, not development stages."
 16,4,true_false,preview,17,Requirements gathering finds out what users need.,,true,,,That's correct; requirements gathering is the initial phase dedicated entirely to understanding and documenting what the end-users actually need from the system.
 17,4,multiple_choice,main,,What does requirements gathering find out?,System needs|Font size|Logo color,0,,,"It comes from real users, gathered before building starts."
-18,4,true_false,exercise,17,Requirements should be gathered before building starts.,,true,,,
-19,4,select_blank,exercise,17,Requirements come from the people who ___ it.,use|ignore|delete,0,,,
-20,4,multiple_choice,exercise,17,Who is a good source of requirements?,Real users|Random font|Random logo,0,,,
-21,5,true_false,preview,22,Functional requirements describe what a system must do.,,true,,,
+18,4,true_false,exercise,17,Requirements should be gathered before building starts.,,true,,,True. Gathering requirements first means you know what to build before spending effort on the wrong thing.
+19,4,select_blank,exercise,17,Requirements come from the people who ___ it.,use|ignore|delete,0,,,"Requirements come from the people who will use the system, since they know what it must do."
+20,4,multiple_choice,exercise,17,Who is a good source of requirements?,Real users|Random font|Random logo,0,,,Real users are a good source of requirements because they know their own needs and problems.
+21,5,true_false,preview,22,Functional requirements describe what a system must do.,,true,,,"True. Functional requirements describe what the system must do, such as letting users reset a password."
 22,5,multiple_choice,main,,What do functional requirements describe?,Behavior|How fast|Font size,0,,,"Non-functional requirements, by contrast, describe how well it performs — like its speed or security."
-23,5,true_false,exercise,22,Speed is a non-functional requirement.,,true,,,
+23,5,true_false,exercise,22,Speed is a non-functional requirement.,,true,,,"True. Speed describes how well the system works, not what it does, so it is non-functional."
 24,5,select_blank,exercise,22,Non-functional requirements cover how ___ a system performs.,well|much|little,0,,,"Non-functional requirements define quality attributes, meaning they describe *how well* the system must perform in terms of speed or reliability."
 25,5,multiple_choice,exercise,22,Give an example non-functional requirement.,Security|Login button|Save action,0,,,"Security is a non-functional requirement because it defines a constraint on how the system must operate (e.g., protected), unlike buttons and actions which define specific functions."
 26,6,true_false,preview,27,A user story describes a need from users.,,true,,,"User stories are written from the perspective of an end-user, describing a specific goal or need they want to achieve with the system."
 27,6,multiple_choice,main,,What does a user story describe?,A need|A font|A logo,0,,,Its acceptance criteria say exactly how you'll know that need has been met — the done state.
 28,6,true_false,exercise,27,Acceptance criteria say how you know a story is met.,,true,,,"Exactly; they are the specific, testable conditions that must be true for the development team to consider the feature complete and working correctly."
-29,6,select_blank,exercise,27,A user story is written from the ___ view.,user's|logo's|font's,0,,,
+29,6,select_blank,exercise,27,A user story is written from the ___ view.,user's|logo's|font's,0,,,A user story is written from the user's view: what the user wants and why.
 30,6,multiple_choice,exercise,27,What do acceptance criteria define?,Done state|The font|The logo,0,,,Acceptance criteria define the 'done' state—they are the measurable conditions that must be met for a feature to pass testing and be considered complete.
 31,7,true_false,preview,32,Feasibility analysis checks if a project is worth it.,,true,,,"That's right; feasibility determines if the project is technically possible, economically viable, and strategically worthwhile to pursue."
 32,7,multiple_choice,main,,What does feasibility analysis check?,Worth doing|The font|The logo,0,,,"It happens before real money is spent, so resources aren't wasted."
@@ -54,19 +54,19 @@ id,unit_id,type,role,related_main_id,prompt,options,correct_index,image,audio,ex
 53,11,true_false,exercise,52,Coding standards are shared across contributors.,,true,,,Coding standards are essential because they provide a consistent style guide that all contributors must follow to keep the codebase uniform.
 54,11,select_blank,exercise,52,Standards apply across ___ contributors.,many|zero|one,0,,,"Standards need to apply across many contributors so that everyone writing code adheres to the same rules, regardless of who wrote it before."
 55,11,multiple_choice,exercise,52,What happens without shared standards?,Inconsistent code|Faster builds|Fewer bugs,0,,,"Without shared standards, different people will write code in varying styles and ways, leading directly to inconsistent code that is hard to maintain."
-56,12,true_false,preview,57,Version control tracks every change to the code.,,true,,,
+56,12,true_false,preview,57,Version control tracks every change to the code.,,true,,,"True. Version control records every change to the code, so you can see history and undo mistakes."
 57,12,multiple_choice,main,,What does version control track?,Every change|Only releases|Only meetings,0,,,"It runs throughout the whole SDLC, starting from the very first commit."
 58,12,true_false,exercise,57,Version control is used only at the very end.,,false,,,"It runs throughout the whole SDLC, not just at the end."
 59,12,select_blank,exercise,57,Version control runs ___ the SDLC.,throughout|only after|never during,0,,,Version control must run throughout the entire Software Development Life Cycle (SDLC) because tracking changes needs to happen from the initial idea through release.
 60,12,multiple_choice,exercise,57,When does version control tracking start?,First commit|Last release|Never,0,,,"Version control tracking starts with the very first commit, as that is when you are formally saving and recording the initial state of your code."
-61,13,true_false,preview,62,A code review happens before code gets merged.,,true,,,
+61,13,true_false,preview,62,A code review happens before code gets merged.,,true,,,"True. A code review happens before the code is merged, so problems are caught first."
 62,13,multiple_choice,main,,When does a code review happen?,Before merging|After deploy|Never,0,,,"It's a teammate reviewing your code, catching issues while they're still cheap to fix."
-63,13,true_false,exercise,62,Code review catches issues while they are cheap to fix.,,true,,,
-64,13,select_blank,exercise,62,A ___ checks your code before it merges.,teammate|font|logo,0,,,
-65,13,multiple_choice,exercise,62,Why review code before merging?,Catch issues|Slow team|Skip tests,0,,,
-66,14,true_false,preview,67,Pair programming has two developers working together.,,true,,,
+63,13,true_false,exercise,62,Code review catches issues while they are cheap to fix.,,true,,,True. Issues found in review cost far less to fix than after they reach production.
+64,13,select_blank,exercise,62,A ___ checks your code before it merges.,teammate|font|logo,0,,,"A teammate checks your code before it merges, which brings a fresh pair of eyes."
+65,13,multiple_choice,exercise,62,Why review code before merging?,Catch issues|Slow team|Skip tests,0,,,"Reviewing before merging catches issues early, while they are still cheap to fix."
+66,14,true_false,preview,67,Pair programming has two developers working together.,,true,,,"True. In pair programming, two developers work on the same code together."
 67,14,multiple_choice,main,,How many developers work together in a pair?,Two|One|Zero,0,,,They work together in real time — one types while the other reviews live.
-68,14,true_false,exercise,67,Pair programming happens in real time together.,,true,,,
+68,14,true_false,exercise,67,Pair programming happens in real time together.,,true,,,"True. Pair programming happens in real time, with both developers working at once on the same task."
 69,14,select_blank,exercise,67,One person types while the other ___.,reviews|sleeps|leaves,0,,,"In pair programming, the second person acts as an 'observer' or reviewer, watching the code and thinking about potential issues while the first person types."
 70,14,multiple_choice,exercise,67,What happens as the pair works?,Live review|No review|A delay,0,,,"The core benefit of pairing is that the second person constantly reviews the code in real-time, catching errors or suggesting improvements immediately. This continuous feedback loop is what makes it effective."
 71,15,true_false,preview,72,"Testing happens throughout the SDLC, not just the end.",,true,,,This is correct because finding bugs later in the cycle is much more expensive and time-consuming than catching them when requirements are being written or code is first drafted.
@@ -79,19 +79,19 @@ id,unit_id,type,role,related_main_id,prompt,options,correct_index,image,audio,ex
 78,16,true_false,exercise,77,Acceptance tests check against real needs.,,true,,,"This is correct because acceptance tests confirm that the system actually solves the problem for the end-user or client, validating real business needs rather than just technical functionality."
 79,16,select_blank,exercise,77,A unit test checks one ___.,function|product|meeting,0,,,"Unit testing focuses on the smallest isolated components, like a single function or method. This ensures that specific piece of logic works perfectly before integrating it anywhere else."
 80,16,multiple_choice,exercise,77,What does an integration test check?,Parts together|One function|A logo,0,,,"Integration testing verifies that different parts or modules of the system work correctly when connected together. It checks how they interact, not just if one function works in isolation."
-81,17,true_false,preview,82,"In TDD, you write a failing test first.",,true,,,
+81,17,true_false,preview,82,"In TDD, you write a failing test first.",,true,,,"True. In TDD you write a failing test first, which proves the test can detect the missing behavior."
 82,17,multiple_choice,main,,What comes first in TDD?,Failing test|Passing code|A meeting,0,,,"After that failing test, you write just enough code to make it pass."
-83,17,true_false,exercise,82,TDD writes just enough code to pass the test.,,true,,,
-84,17,select_blank,exercise,82,TDD writes the ___ before the code.,test|logo|font,0,,,
-85,17,multiple_choice,exercise,82,What is the first TDD test meant to do?,Fail|Pass|Do nothing,0,,,
-86,18,true_false,preview,87,Canary releases first shift a small slice of traffic.,,true,,,
+83,17,true_false,exercise,82,TDD writes just enough code to pass the test.,,true,,,"True. TDD has you write just enough code to make the failing test pass, and no more."
+84,17,select_blank,exercise,82,TDD writes the ___ before the code.,test|logo|font,0,,,"TDD writes the test before the code, so the test defines what the code must do."
+85,17,multiple_choice,exercise,82,What is the first TDD test meant to do?,Fail|Pass|Do nothing,0,,,"The first TDD test is meant to fail, which shows the feature does not exist yet and the test works."
+86,18,true_false,preview,87,Canary releases first shift a small slice of traffic.,,true,,,"True. A canary release sends a small slice of traffic to the new version first, to limit the impact of problems."
 87,18,multiple_choice,main,,What does canary do first?,A slice|Everything|Nothing,0,,,Blue-green instead swaps traffic to a whole new environment at once — both approaches exist to reduce release risk.
 88,18,true_false,exercise,87,Blue-green switches traffic to a whole new environment.,,true,,,That is correct; blue-green involves running two identical environments so you can switch all user traffic instantly when one environment is fully validated.
 89,18,select_blank,exercise,87,Canary tests a small ___ of traffic first.,slice|logo|font,0,,,"Canary deployments test the new code by routing a small 'slice' of live user traffic to it first, which significantly reduces the risk compared to a full rollout."
 90,18,multiple_choice,exercise,87,What do both strategies aim to reduce?,Release risk|Build time|Test count,0,,,Both canary and blue-green strategies are designed to minimize release risk by allowing gradual rollouts and providing instant rollback options if issues arise.
 91,19,true_false,preview,92,Continuous integration merges code changes frequently.,,true,,,"Yes, continuous integration is all about merging code changes frequently—ideally multiple times a day—to ensure that conflicts are caught immediately rather than weeks later."
 92,19,multiple_choice,main,,How often does CI merge changes?,Frequently|Yearly|Never,0,,,"It also runs tests on each change, avoiding one huge merge at the end."
-93,19,true_false,exercise,92,CI merges changes in small batches.,,true,,,
+93,19,true_false,exercise,92,CI merges changes in small batches.,,true,,,"True. Continuous integration merges changes in small batches, so conflicts and bugs stay small and easy to find."
 94,19,select_blank,exercise,92,CI avoids one huge merge at the ___.,end|start|middle,0,,,"The whole point of Continuous Integration is that developers commit small changes frequently, preventing a massive, risky merge at the end of a development cycle."
 95,19,multiple_choice,exercise,92,What does CI run on each change?,Tests|A meeting|Logo update,0,,,"CI's primary function is to automatically run your test suite every time new code is committed, which immediately verifies that the change hasn't broken anything else."
 96,20,true_false,preview,97,Continuous deployment releases every passing change automatically.,,true,,,That is exactly what continuous deployment means: passing all automated checks automatically results in an immediate production release without any human sign-off.
@@ -128,8 +128,8 @@ id,unit_id,type,role,related_main_id,prompt,options,correct_index,image,audio,ex
 127,26,multiple_choice,main,,How does Waterfall move through phases?,Strict order|At once|Randomly,0,,,That strict order also makes late changes hard to absorb once a phase is already done.
 128,26,true_false,exercise,127,"In Waterfall, a phase finishes before the next begins.",,true,,,Exactly. The model demands that each stage be fully completed and signed off before development can proceed to the subsequent step.
 129,26,select_blank,exercise,127,Waterfall is a strictly ___ model.,sequential|parallel|random,0,,,The Waterfall model is strictly sequential because it requires that one phase must be fully completed and signed off before the next phase can begin.
-130,26,multiple_choice,exercise,127,What can Waterfall struggle with?,Late changes|Fixed scope|Clear phases,0,,,
-131,27,true_false,preview,132,The V-Model pairs dev phases with test phases.,,true,,,
+130,26,multiple_choice,exercise,127,What can Waterfall struggle with?,Late changes|Fixed scope|Clear phases,0,,,"Waterfall struggles with late changes, because each phase finishes before the next starts and going back is costly."
+131,27,true_false,preview,132,The V-Model pairs dev phases with test phases.,,true,,,True. The V-Model pairs each development phase with a matching test phase.
 132,27,multiple_choice,main,,What does the V-Model pair with each dev phase?,Test phase|Logo phase|Font phase,0,,,"It extends the Waterfall model, and gets its name from the V shape this pairing draws."
 133,27,true_false,exercise,132,The V-Model extends the Waterfall idea.,,true,,,"It does extend Waterfall by adding a formal, structured relationship between development phases and corresponding testing phases, making the process more rigorous."
 134,27,select_blank,exercise,132,Test planning happens ___ development in the V-Model.,alongside|never with|only after,0,,,"In the V-Model, test planning happens alongside development because you must plan how to test something while you are designing it, not just after coding is done."
@@ -141,12 +141,12 @@ id,unit_id,type,role,related_main_id,prompt,options,correct_index,image,audio,ex
 140,28,multiple_choice,exercise,137,What does the Iterative model avoid?,Big build|Repetition|Planning,0,,,"It specifically avoids the 'big bang' approach, where you wait until everything is finished and then try to deploy it all at once."
 141,29,true_false,preview,142,The Spiral model adds risk analysis to each cycle.,,true,,,"That is the key differentiator; unlike other models, the Spiral model explicitly includes a dedicated phase for identifying and mitigating risks in every loop."
 142,29,multiple_choice,main,,What does Spiral add to iteration?,Risk analysis|New logo|New font,0,,,"That risk-analysis step happens at the start of every single cycle, not just once."
-143,29,true_false,exercise,142,Risk analysis happens every cycle in the Spiral model.,,true,,,
-144,29,select_blank,exercise,142,Spiral pairs iteration with explicit ___ analysis.,risk|logo|font,0,,,
-145,29,multiple_choice,exercise,142,When does risk analysis happen in Spiral?,Every cycle|Once ever|Never,0,,,
-146,30,true_false,preview,147,Agile delivers working software in short cycles.,,true,,,
+143,29,true_false,exercise,142,Risk analysis happens every cycle in the Spiral model.,,true,,,"True. The Spiral model repeats risk analysis in every cycle, before committing to the next round of work."
+144,29,select_blank,exercise,142,Spiral pairs iteration with explicit ___ analysis.,risk|logo|font,0,,,"Spiral combines iteration with explicit risk analysis, done at the start of each cycle."
+145,29,multiple_choice,exercise,142,When does risk analysis happen in Spiral?,Every cycle|Once ever|Never,0,,,"In Spiral, risk analysis happens every cycle, not only once at the start."
+146,30,true_false,preview,147,Agile delivers working software in short cycles.,,true,,,"True. Agile delivers working software in short cycles, so users get value and give feedback early."
 147,30,multiple_choice,main,,What does Agile deliver in short cycles?,Working software|Design doc|A logo,0,,,"Those cycles are short and frequent, adjusting based on feedback as it comes in."
-148,30,true_false,exercise,147,Agile adjusts based on ongoing feedback.,,true,,,
+148,30,true_false,exercise,147,Agile adjusts based on ongoing feedback.,,true,,,True. Agile adjusts its plan based on ongoing feedback instead of following a fixed plan to the end.
 149,30,select_blank,exercise,147,Agile cycles are short and ___.,frequent|rare|yearly,0,,,"Agile methodology requires rapid iteration, so the cycles are designed to be both short and frequent to allow for quick adjustments based on feedback."
 150,30,multiple_choice,exercise,147,What drives changes in the Agile model?,Feedback|Fixed plan|Nothing,0,,,"The entire philosophy of Agile revolves around adapting to reality; it uses continuous feedback from stakeholders and users, rather than sticking rigidly to an initial fixed plan."
 151,31,true_false,preview,152,DevOps merges development and operations into one team.,,true,,,That is correct. DevOps fundamentally breaks down the traditional silos between Development (building) and Operations (running).
@@ -168,13 +168,13 @@ id,unit_id,type,role,related_main_id,prompt,options,correct_index,image,audio,ex
 167,34,multiple_choice,main,,What should drive the choice of SDLC model?,"Risk, size|Personal taste|Coin flip",0,,,It also depends on how well-understood the requirements already are — there's no single universal best answer.
 168,34,true_false,exercise,167,There is one universal best SDLC model for everyone.,,false,,,"The right fit depends on the specific project, not one universal answer."
 169,34,select_blank,exercise,167,Fit the model to the project's actual ___.,needs|logo|font,0,,,"A development model must be tailored to the actual functional and business needs of the project, not merely its visual branding or design elements."
-170,34,multiple_choice,exercise,167,What matters when picking a model?,Well-understood scope|Font choice|Logo color,0,,,
+170,34,multiple_choice,exercise,167,What matters when picking a model?,Well-understood scope|Font choice|Logo color,0,,,"Choose a model by how well the scope is understood: stable, well-understood scope suits plan-driven models."
 171,22,multiple_choice,exercise,107,Which is preventive maintenance?,Risk fix|Live fix|Logo change,0,,,"Preventive maintenance focuses on mitigating potential issues before they become actual failures, which is exactly what fixing risks does. A logo change or a live fix only addresses symptoms or cosmetic problems."
 172,3,order,exercise,12,Order the core SDLC phases.,Requirements|Design|Build|Test|Deploy|Maintain,,,,"The standard sequence moves from Requirements to Design, then Build, followed by rigorous Testing, releasing it live, and finally ongoing Maintenance."
-173,16,order,exercise,77,"Order the test levels, narrowest first.",Unit|Integration|System|Acceptance,,,,
+173,16,order,exercise,77,"Order the test levels, narrowest first.",Unit|Integration|System|Acceptance,,,,"From narrowest to widest: unit tests, integration tests, system tests, then acceptance tests."
 174,17,order,exercise,82,Order the TDD steps.,Write a failing test|Write code to pass it|Clean up the code,,,,"The process must follow this order: first write a failing test to prove what's missing, then write just enough code to make it pass, and finally clean up the rest of the implementation."
 175,19,order,exercise,92,Order a CI cycle's steps.,Make a small change|Merge into main|Automated tests run,,,,"The process flows from making a small change, merging it into the main branch, and then triggering automated tests to validate the combined code."
-176,26,order,exercise,127,Order Waterfall's phases.,Requirements|Design|Implementation|Testing|Deployment,,,,
+176,26,order,exercise,127,Order Waterfall's phases.,Requirements|Design|Implementation|Testing|Deployment,,,,"Waterfall runs in sequence: requirements, design, implementation, testing, then deployment."
 177,27,order,exercise,132,"Order the V-Model, down then up.",Requirements|Design|Coding|Unit testing|Integration testing|Acceptance testing,,,,"You start at Requirements, move down through Design and Coding, and then ascend up the other side with Unit testing, Integration testing, and Acceptance testing."
 178,18,true_false,preview,179,Blue-green deployment keeps two full environments.,,true,,,Traffic switches to the new one at once.
 179,18,multiple_choice,main,,Blue-green deployment switches traffic how?,All at once|Gradually|Never,0,,,All traffic moves to the new environment at once.
