@@ -40,3 +40,7 @@ audit trail,"A traceable, ongoing record of past decisions and changes — e.g. 
 ROI,Return on investment: the gain from a project compared with what it cost.,https://en.wikipedia.org/wiki/Return_on_investment,
 OS,Operating system: the software that manages a computer's hardware and runs other programs.,https://en.wikipedia.org/wiki/Operating_system,
 RCA,"Root cause analysis: finding the underlying reason a problem happened, not just its symptoms.",https://en.wikipedia.org/wiki/Root_cause_analysis,
+unit tests,Small automated tests that check one function or component in isolation.,https://en.wikipedia.org/wiki/Unit_testing,77
+integration tests,Automated tests that check that several components work correctly together.,https://en.wikipedia.org/wiki/Integration_testing,77
+deployments,The act of releasing a new version of software into an environment where people use it.,https://en.wikipedia.org/wiki/Software_deployment,179
+audit trails,"A chronological record of who did what and when in a system, kept so actions can be reviewed later.",https://en.wikipedia.org/wiki/Audit_trail,162
