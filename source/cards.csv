@@ -192,3 +192,45 @@ id,unit_id,type,role,related_main_id,prompt,options,correct_index,image,audio,ex
 191,35,match_pairs,exercise,190,Pair every term with its gloss.,monitoring↔Watching live systems|incident↔Unplanned outage|root-cause analysis↔Why it happened|deprecation↔Planned retirement,,,,Each term is paired with its plain-language meaning.
 192,35,match_pairs,exercise,190,Which meaning fits each term?,deprecation↔Planned retirement|V-Model↔Phases with tests|Iterative model↔Small repeated cycles|Spiral model↔Cycles plus risk,,,,Each term is paired with its plain-language meaning.
 193,35,match_pairs,exercise,190,Connect the terms to what they mean.,Agile↔Short frequent cycles|DevOps↔Shared dev-ops|audit trail↔Traceable change record|blue-green deployment↔Switch all traffic,,,,Each term is paired with its plain-language meaning.
+194,1,multiple_choice,exam,,SDLC describes a lifecycle from idea to:,Retirement|Hiring plans|Marketing plans,0,,,It is a structured sequence of phases.
+195,2,multiple_choice,exam,,A defined process keeps work:,Hidden|Repeatable|Improvised,1,,,It also helps catch problems earlier.
+196,2,true_false,exam,,Ad-hoc coding catches problems earlier than a defined process.,,false,,,A defined process is what catches problems earlier.
+197,3,multiple_choice,exam,,Which is a core SDLC phase?,Requirements|Recruiting staff|Budget planning,0,,,"The core phases are requirements, design, build, test, deploy and maintain."
+198,4,multiple_choice,exam,,Requirements come from real:,Auditors|Users|Compilers,1,,,They are gathered before building starts.
+199,5,multiple_choice,exam,,Functional requirements describe what a system:,Costs|Weighs|Does,2,,,Non-functional ones describe how well it performs.
+200,6,multiple_choice,exam,,Speed and security are examples of:,Non-functional requirements|Functional requirements|Acceptance criteria,0,,,They describe how well the system performs.
+201,6,multiple_choice,exam,,Acceptance criteria show a need has been:,Funded|Met|Created,1,,,They define the done state of a user story.
+202,7,multiple_choice,exam,,Feasibility analysis happens before real money is:,Earned|Audited|Spent,2,,,It checks whether the project is worth doing.
+203,8,multiple_choice,exam,,Low-level design works out the detailed:,Internals|Budget plan|Schedule plan,0,,,High-level design comes first and sketches the overall shape.
+204,9,multiple_choice,exam,,A design document is written before the:,Release|Code|Requirements,1,,,It helps the team agree on the approach.
+205,10,multiple_choice,exam,,A prototype is meant to be rough and:,Permanent|Polished|Disposable,2,,,It tests an idea quickly and cheaply.
+206,11,multiple_choice,exam,,Coding standards keep a codebase:,Consistent|Secretive|Smaller,0,,,That holds across every contributor.
+207,12,multiple_choice,exam,,Version control tracks every:,Invoice|Change|Meeting,1,,,It runs throughout the whole SDLC.
+208,13,multiple_choice,exam,,A code review happens before:,Planning|Hiring|Merging,2,,,A teammate catches issues while they are cheap to fix.
+209,14,multiple_choice,exam,,Pair programming means developers work:,Together|Separately|Anonymously,0,,,One types while the other reviews live.
+210,18,multiple_choice,exam,,Testing begins as early as:,Deployment|Requirements|Release day,1,,,It does not wait until the end.
+211,16,multiple_choice,exam,,A system test checks the:,One function|Database only|Whole product,2,,,A unit test checks one function.
+212,16,multiple_choice,exam,,An acceptance test confirms the software meets the:,Customer's needs|Compiler rules|Style guide,0,,,"Unit, integration, system and acceptance are the test levels."
+213,17,multiple_choice,exam,,"In TDD, you write a failing test:",Never|First|Last,1,,,Then you write just enough code to make it pass.
+214,18,multiple_choice,exam,,A canary release first shifts a:,Whole team|Test database|Traffic slice,2,,,Blue-green swaps everything at once.
+215,18,true_false,exam,,Blue-green runs two complete environments side by side.,,true,,,Traffic then moves to the new environment at once.
+216,19,multiple_choice,exam,,Continuous integration merges changes:,Rarely|Frequently|Once yearly,1,,,It runs tests on each change.
+217,20,multiple_choice,exam,,Continuous delivery keeps a manual:,Testing step|Design step|Release step,2,,,Continuous deployment releases automatically.
+218,21,multiple_choice,exam,,Release management coordinates what ships and:,When|Why not|Who pays,0,,,"It makes a release deliberate, not accidental."
+219,22,multiple_choice,exam,,Software is maintained to fix bugs and add:,Accounts|Features|Layers,1,,,Adapting to a new environment is another reason.
+220,23,multiple_choice,exam,,Monitoring watches the live system:,Monthly only|Once|Continuously,2,,,It finds real problems early.
+221,24,multiple_choice,exam,,"In an incident, first priority is to:",Restore service|Document everything|Find blame,0,,,Root-cause investigation comes afterward.
+222,25,multiple_choice,exam,,A feature should be retired:,Instantly|Deliberately|Silently,1,,,Users get a warning and a timeline.
+223,26,multiple_choice,exam,,Waterfall moves through phases in:,Random order|Parallel|Strict order,2,,,Late changes are hard to absorb.
+224,27,multiple_choice,exam,,The V-Model pairs each development phase with a:,Test phase|Code review|Release plan,0,,,The pairs form a V shape.
+225,28,multiple_choice,exam,,The Iterative model improves through:,Single release|Repeated cycles|Upfront planning,1,,,It avoids building the whole system at once.
+226,29,multiple_choice,exam,,The Spiral model adds risk analysis to each:,Meeting|Document|Cycle,2,,,It happens at the start of every cycle.
+227,30,multiple_choice,exam,,Agile delivers working software in short:,Cycles|Contracts|Meetings,0,,,Feedback adjusts each cycle.
+228,31,multiple_choice,exam,,DevOps merges development and:,Finance teams|Operations|Marketing teams,1,,,Separate teams become one.
+229,32,multiple_choice,exam,,Documentation should be kept at every:,Release only|Review|Phase,2,,,Not as one pile at the very end.
+230,33,multiple_choice,exam,,An audit trail keeps a traceable:,Record|Budget|Backup,0,,,It matters most in regulated systems.
+231,34,multiple_choice,exam,,The choice of SDLC model depends on risk and:,Language|Size|Colour,1,,,Understanding of the requirements also matters.
+232,34,true_false,exam,,One SDLC model fits every project.,,false,,,The right model depends on the project's risk and size.
+233,1,true_false,exam,,SDLC stops once the first version ships.,,false,,,It continues through maintenance until retirement.
+234,12,true_false,exam,,Version control starts only at release time.,,false,,,It starts from the very first commit.
+235,24,true_false,exam,,Root-cause analysis comes before restoring service.,,false,,,Restoring service comes first; investigation follows.

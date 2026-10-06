@@ -4,7 +4,7 @@
   "description": "The software development lifecycle end to end: requirements, design, building, testing, shipping, and keeping a system alive afterward.",
   "image": "cover.png",
   "file": "sdlc.zip",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "tags": [
     "sdlc",
     "software-engineering",
@@ -14,13 +14,8 @@
   "changelog": [
     {
       "version": "1.0.0",
-      "date": "2026-08-15",
-      "notes": "Initial release — 34 decks, 177 cards, each pack with a preview card teaching the concept before its graded main card and practice cards."
-    },
-    {
-      "version": "1.1.0",
       "date": "2026-09-30",
-      "notes": "Added an explanation to 34 card(s) that had none."
+      "notes": "Initial release — 34 decks, 177 cards, each pack with a preview card teaching the concept before its graded main card and practice cards."
     }
   ],
   "toc": [
