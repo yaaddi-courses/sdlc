@@ -3,10 +3,10 @@
 **Covers:** Waterfall, V-Model
 
 ## Doing it in order {#overview}
-The earliest and most intuitive way to organize a software project is to do it in order: first find out what is needed, then design, then build, then test, then release. Each step finishes before the next begins. It is the way most buildings and bridges are made, and it was the way software was first managed. Two well-known models follow this idea, the second being an improvement on the first.
+If you had to organize a software project, the most natural plan would be to do things in order: find out what is needed, then design, then build, then test, then release. Each step finishes before the next begins. Most buildings and bridges are made this way, and it was the way software was first managed. Two well-known models follow this idea, and the second is an improvement on the first.
 
 ## Waterfall {#waterfall}
-Waterfall is a model in which a project moves through its phases in strict order, with each phase finished completely before the next begins, like water flowing down steps. The phases are usually requirements, design, implementation, testing and maintenance.
+In the Waterfall model, a project moves through its phases in strict order, with each phase finished completely before the next begins, like water flowing down steps. The phases are usually requirements, design, implementation, testing and maintenance.
 
 Its strengths are clarity and control. Everyone knows what phase the project is in, there is a document at the end of each phase and the plan is easy to track. It suits projects whose requirements are well understood and unlikely to change, such as building software for a regulated device.
 
@@ -26,10 +26,10 @@ The pairs are:
 | Architecture design | Integration testing |
 | Module design | Unit testing |
 
-The point is to plan the tests at the same time as each design phase, so that each requirement has a test written for it before any code exists. It improves quality and traceability. It shares Waterfall's weakness: changes late in the project remain expensive.
+The point is to plan the tests at the same time as each design phase, so that each requirement has a test written for it before any code exists. This improves quality and traceability. The model shares Waterfall's weakness: changes late in the project remain expensive.
 
 ## A worked example {#example}
-A company builds the software for a medical pump, where the requirements are fixed by regulation. They choose the V-Model. See how a single requirement travels through it:
+A company builds the software for a medical pump, where the requirements are fixed by regulation. They choose the V-Model. Let's see how a single requirement travels through it.
 
 1. Requirement: "The pump must stop within 1 second of a blocked-tube alarm."
 2. At the same moment, an acceptance test is planned: "Block the tube and time the stop."
@@ -41,7 +41,9 @@ A company builds the software for a medical pump, where the requirements are fix
 Suppose a mistake in step 4 is found at step 6 during integration testing. The team goes back two levels, which costs a few weeks, but nothing reaches the patient.
 
 ## A common mistake {#mistake}
-Choosing a sequential model because it feels organized, even when the requirements are still unclear. For a new product whose users have not been asked, strict order means learning the truth too late. Another mistake is thinking Waterfall forbids any looping back. Real projects often allow small steps back, but each one is a cost.
+A common slip is choosing a sequential model because it feels organized, even when the requirements are still unclear. For a new product whose users have not been asked, strict order means learning the truth too late.
+
+A second slip is thinking Waterfall forbids any looping back. Real projects often allow small steps back, but each one is a cost.
 
 ## Key points {#key-points}
 - Waterfall moves through phases in strict order, and each one finishes before the next begins.
