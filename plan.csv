@@ -1,0 +1,38 @@
+section,deck,pack,level,keywords,terms,kind,main_card_id
+Foundations,What SDLC Actually Means,What does SDLC describe?,1,SDLC,SDLC,teach,2
+Foundations,Why Structured Process Beats Ad-Hoc Coding,What does a defined process help catch?,1,ad-hoc,ad-hoc,teach,7
+Foundations,"The Core SDLC Phases, Overview",Pick core SDLC phases.,1,Pick core SDLC phases.,,teach,12
+Requirements and Planning,Gathering Requirements,What does requirements gathering find out?,1,requirements gathering,requirements gathering,teach,17
+Requirements and Planning,Functional vs Non-Functional Requirements,What do functional requirements describe?,1,functional requirements|non-functional requirements,functional requirements|non-functional requirements,teach,22
+Requirements and Planning,User Stories and Acceptance Criteria,What does a user story describe?,1,user story|acceptance criteria,user story|acceptance criteria,teach,27
+Requirements and Planning,Feasibility Analysis,What does feasibility analysis check?,1,feasibility analysis,feasibility analysis,teach,32
+Design,High-Level Design vs Low-Level Design,What does high-level design sketch?,1,high-level design|low-level design,high-level design|low-level design,teach,37
+Design,Writing a Design Document,When is a design document written?,1,design document,design document,teach,42
+Design,Prototyping,What is a prototype meant to be?,1,prototype,prototype,teach,47
+Implementation,Coding Standards and Style Guides,What do coding standards keep consistent?,2,coding standards,coding standards,teach,52
+Implementation,Version Control in the SDLC,What does version control track?,2,version control,version control,teach,57
+Implementation,Code Reviews,When does a code review happen?,2,code review,code review,teach,62
+Implementation,Pair Programming,How many developers work together in a pair?,2,pair programming,pair programming,teach,67
+Testing,Where Testing Fits in the SDLC,"Testing belongs ___ the SDLC, not just the end.",2,"Testing belongs ___ the SDLC, not just the end.",,teach,72
+Testing,"Test Levels: Unit, Integration, System, Acceptance",What does a system test check?,2,unit test|integration test|system test,unit test|integration test|system test,teach,77
+Testing,Test-Driven Development Basics,What comes first in TDD?,2,TDD,TDD,teach,82
+Deployment,Deployment Strategies: Blue-Green and Canary,What does canary do first?,2,What does canary do first?,,teach,87
+Deployment,Deployment Strategies: Blue-Green and Canary,Blue-green deployment switches traffic how?,2,deployment|blue-green deployment,deployment|blue-green deployment,teach,179
+Deployment,Continuous Integration Basics,How often does CI merge changes?,3,continuous integration,continuous integration,teach,92
+Deployment,Continuous Delivery vs Continuous Deployment,What does continuous deployment do automatically?,3,continuous deployment|continuous delivery,continuous deployment|continuous delivery,teach,97
+Deployment,Release Management,What does release management coordinate?,3,release management,release management,teach,102
+Maintenance,Types of Maintenance,Pick reasons for post-ship maintenance.,3,preventive maintenance,preventive maintenance,teach,107
+Maintenance,Monitoring Systems in Production,What does monitoring help find early?,3,monitoring,monitoring,teach,112
+Maintenance,Handling a Production Incident,What is the first priority during an incident?,3,incident|root-cause analysis,incident|root-cause analysis,teach,117
+Maintenance,Deprecating and Sunsetting Features,How should a feature be retired?,3,deprecation,deprecation,teach,122
+SDLC Models,The Waterfall Model,How does Waterfall move through phases?,3,Waterfall,Waterfall,teach,127
+SDLC Models,The V-Model,What does the V-Model pair with each dev phase?,3,V-Model,V-Model,teach,132
+SDLC Models,The Iterative Model,How does the Iterative model improve a system?,4,Iterative model,Iterative model,teach,137
+SDLC Models,The Spiral Model,What does Spiral add to iteration?,4,Spiral model,Spiral model,teach,142
+SDLC Models,The Agile Model,What does Agile deliver in short cycles?,4,Agile,Agile,teach,147
+SDLC Models,DevOps as an SDLC Evolution,What does DevOps merge?,4,DevOps,DevOps,teach,152
+Cross-Cutting,Documentation Throughout the SDLC,When should documentation be kept?,4,When should documentation be kept?,,teach,157
+Cross-Cutting,Compliance and Audit Trails,What does an audit trail keep?,4,audit trail,audit trail,teach,162
+Cross-Cutting,Choosing the Right SDLC Model,What should drive the choice of SDLC model?,4,What should drive the choice of SDLC model?,,teach,167
+Review,Recap: Key Terms,Recap pack 36,4,ad-hoc|functional requirements|non-functional requirements|user story|acceptance criteria|feasibility analysis|high-level design|low-level design|design document|prototype|coding standards|version control|code review|pair programming|system test|unit test|integration test|TDD|continuous integration,,review,183
+Review,Recap: Key Terms,Recap pack 37,4,continuous deployment|continuous delivery|release management|preventive maintenance|monitoring|incident|root-cause analysis|deprecation|V-Model|Iterative model|Spiral model|Agile|DevOps|audit trail|blue-green deployment,,review,190
