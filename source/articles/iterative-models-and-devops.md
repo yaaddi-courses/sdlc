@@ -18,12 +18,12 @@ The drawing is a spiral that grows outward as the system grows. It suits large, 
 ## Agile {#agile}
 Agile is an approach that delivers working software in short, frequent cycles, usually one to four weeks, and keeps adjusting the plan as real feedback arrives. It comes from the Agile Manifesto of 2001, written by seventeen practitioners. The manifesto values individuals and interactions, working software, customer collaboration and responding to change, while still valuing the items on the other side of each pair.
 
-Popular frameworks are Scrum, with fixed-length sprints and regular reviews, and Kanban, with a continuous flow limited by how much work is in progress. Agile works best when requirements change and users can give regular feedback. It needs discipline: without planning and testing, "agile" can turn into disorder.
+Popular frameworks are Scrum, with fixed-length sprints (short work periods, usually two weeks) and regular reviews, and Kanban, with a continuous flow limited by how much work is in progress. Agile works best when requirements change and users can give regular feedback. It needs discipline: without planning and testing, "agile" can turn into disorder.
 
 ## DevOps {#devops}
 The last idea is about what happens after the software is built. Before DevOps, one group wrote the code and threw it over a wall to another group that ran it, and each blamed the other when problems occurred. DevOps joins development and operations in one shared responsibility, so the same team builds the software and keeps it running.
 
-It relies on automation: continuous integration, automated releases, monitoring and reproducible environments. The saying "you build it, you run it" captures the spirit. Teams measure themselves with four numbers: how often they deploy, how long a change takes to reach users, how often a change causes a failure and how fast they recover.
+It relies on automation: continuous integration, automated releases, monitoring and reproducible environments (setups that can be recreated exactly, anywhere). The saying "you build it, you run it" captures the spirit. Teams measure themselves with four numbers: how often they deploy, how long a change takes to reach users, how often a change causes a failure and how fast they recover.
 
 ## A worked example {#example}
 A start-up builds a recipe app. Let's compare how each model would handle the same 12 weeks.
@@ -32,7 +32,7 @@ A start-up builds a recipe app. Let's compare how each model would handle the sa
 |---|---|---|---|
 | Iterative | Three 4-week cycles; each releases an improved version | Early user feedback | Needs a clear goal for each cycle |
 | Spiral | Before each cycle, the team analyzes risk (for instance, "will the photo upload scale?") | Avoids costly surprises | Extra effort for a small project |
-| Agile | Six 2-week sprints with a demo to users each time; the backlog is reordered after each | Adapts quickly | Needs steady discipline |
+| Agile | Six 2-week sprints with a demo to users each time; the backlog (the to-do list of wanted features) is reordered after each | Adapts quickly | Needs steady discipline |
 | DevOps | Same sprints, but the team also runs the app and sees live errors | Faster, more reliable releases | Needs automation and a broad skill set |
 
 For a small team with unclear requirements, Agile with DevOps habits fits well. For a project with one huge risk, such as a new payment technology, a spiral-style risk step at the start is worth the cost.

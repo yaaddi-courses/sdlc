@@ -34,12 +34,12 @@ Someone also has to decide exactly what ships and when. Release management is th
 Useful tools are a release calendar, version numbers that signal the size of a change, release notes in plain language and a checklist for the day.
 
 ## A worked example {#example}
-A team releases a change using a pipeline. Let's follow it.
+A team releases a change using a pipeline, an automated chain of build, test and release steps. Let's follow it.
 
 1. A developer merges a small change, and CI builds it and runs 800 tests in 6 minutes. All pass.
 2. The change is packaged and sent to a test environment. This is the end of delivery: it is ready.
 3. Under continuous delivery, the product owner presses Release on Tuesday morning. Under continuous deployment, the pipeline would have done it already.
-4. With blue-green deployment, the new build goes to green. Smoke tests pass, so traffic switches at 10:00.
+4. With blue-green deployment, the new build goes to green. Smoke tests (a quick check that the basics work) pass, so traffic switches at 10:00.
 5. At 10:04 the error rate doubles. The team switches traffic back to blue by 10:05. Users were affected for about five minutes.
 6. The release manager records the event in the release notes and plans the fix for the next release.
 

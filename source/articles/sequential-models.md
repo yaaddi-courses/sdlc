@@ -38,7 +38,7 @@ A company builds the software for a medical pump, where the requirements are fix
 5. Module design defines the function that reads the sensor. Unit tests are planned for it.
 6. The code is written. Unit tests run first, then integration, system and acceptance tests, from the bottom of the V's right side to the top.
 
-Suppose a mistake in step 4 is found at step 6 during integration testing. The team goes back two levels, which costs a few weeks, but nothing reaches the patient.
+Suppose a mistake in step 4 is found at step 6 during integration testing. The team goes back to step 4 to fix the architecture design and repeats the steps after it, which costs a few weeks, but nothing reaches the patient.
 
 ## A common mistake {#mistake}
 A common slip is choosing a sequential model because it feels organized, even when the requirements are still unclear. For a new product whose users have not been asked, strict order means learning the truth too late.
